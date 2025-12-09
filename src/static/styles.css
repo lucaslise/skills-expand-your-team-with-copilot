@@ -721,6 +721,11 @@ footer {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+#dark-mode-toggle:focus {
+  outline: 2px solid rgba(255, 255, 255, 0.8);
+  outline-offset: 2px;
+}
+
 #dark-mode-toggle .icon {
   font-size: 1rem;
 }

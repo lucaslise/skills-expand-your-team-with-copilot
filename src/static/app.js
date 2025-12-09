@@ -37,6 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (savedDarkMode === "enabled") {
       document.body.classList.add("dark-mode");
       updateDarkModeButton(true);
+    } else {
+      updateDarkModeButton(false);
     }
   }
 
